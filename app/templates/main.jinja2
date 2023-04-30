@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FastAPI Sample</title>
+    </head>
+
+    <body>
+        <h1>Web超入門2 - 体験用サンプル</h1>
+        <br/>
+        <h2>POSTメソッド</h2>
+        <form action="/item" method="post">
+            <div>
+                <label for="item">Write your item</label>
+                <input type="text" name="item" id="item">
+            </div>
+            <div>
+                <input type="submit" value="add">
+            </div>
+        </form>
+        <br/>
+        <h2>GETメソッド</h2>
+        <form action="/search" method="get">
+            <div>
+                <label for="query">search</label>
+                <input type="text" name="query" id="query">
+            </div>
+            <div>
+                <input type="submit" value="search">
+            </div>
+        </form>
+    </body>
+</html>
